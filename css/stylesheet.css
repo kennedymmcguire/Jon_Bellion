@@ -1,0 +1,408 @@
+.faded {
+    position: fixed;
+    bottom: -80px;
+    z-index: 9;
+    
+    
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    width: 1024px;
+    margin-top: 100px;
+    margin: 0 auto;
+    background: #1a3034;
+}
+
+
+
+.bodyp {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    line-height: 40px;
+    padding: 30px;
+    padding-top: 10px;
+    display: block;
+    width: ;
+
+}
+
+img {
+    width: 100%;
+}
+
+
+
+.kid {
+    position: relative;
+    left: 600px;
+   margin-right: inherit;
+}
+
+
+.titles {
+    color: #5effe0; 
+    font-family: 'Sarpanch', sans-serif;
+}
+
+
+.jonbellion {
+    font-size: 9em;
+    font-weight: bolder;
+   position: absolute;
+    top: 30%;
+    left: 17%;
+    
+}
+
+.pizazz {
+    padding: 15px;
+    
+}
+
+
+
+
+h1 {
+    font-size: 5em;
+    font-family: 'Sarpanch', sans-serif;
+    color: #5effe0;
+    text-align: center;
+}
+  
+
+h2 {
+    font-size: 2em;
+    font-family: 'Sarpanch', sans-serif;
+    color: #5effe0;
+    padding: 80px;
+}
+
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    background: #121517;
+}
+
+
+.clear {
+    clear: both;
+}
+
+.navbar {
+     font-family: 'Sarpanch', sans-serif;
+    font-weight: bold;
+    color: white;
+    position: fixed;
+        top: 90%;
+        left: 23%;
+    background-color: ;
+    z-index: 200;
+    
+}
+    
+    
+
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  border: none;
+    font-family: 'Sarpanch', sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.navmenu {
+    color: white;
+    width: 160px;
+    padding: 13px;
+    font-size: 16px;
+    float: left;
+    text-align: center;
+}
+
+a:link {
+ color: white;
+  text-decoration: none;
+    text-decoration: underline;
+   
+}
+
+a:visited {
+     color: white;
+  text-decoration: none;
+}
+
+a:hover {
+    color: #5effe0;
+  text-decoration: none;
+    
+}
+
+a:active {
+  text-decoration: none;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+ float: left;  
+    width: 160px;
+
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  min-width: 160px;
+  box-shadow: 20px 20px 20px 20px rgba(0,0,0,0.2);
+  z-index: 1;
+  bottom: 25px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {color: #5effe0; background-color: transparent;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {color: #5effe0; background-color: #c;}
+
+
+.album_img {
+    width: 470px;
+    
+}
+
+.album_txt {
+    width: 470px;
+    font-size: 16px;
+    color: white;
+   
+}
+
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+   
+}
+
+.gridy {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 40px;
+  padding: 40px;
+    
+}
+
+.item01{
+    
+}
+
+.item02{
+    
+
+    
+}
+
+.item03{
+    
+    
+}
+
+.item04{
+    
+    
+}
+
+.item05{
+    
+    
+}
+
+.item06{
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Add animation (Chrome, Safari, Opera) */
+@-webkit-keyframes example {
+  from {top:-100px;opacity: 0;}
+  to {top:0px;opacity:1;}
+}
+
+/* Add animation (Standard syntax) */
+@keyframes example {
+  from {top:-100px;opacity: 0;}
+  to {top:0px;opacity:1;}
+}
+
+/* The modal's background */
+.modal {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+    z-index: 20p;
+}
+
+/* Display the modal when targeted */
+.modal:target {
+  display: table;
+  position: absolute;
+}
+
+.modal02 {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+    
+}
+
+.modal02:target {
+  display: table;
+  position: absolute;
+} 
+
+/* The modal box */
+.modal-dialog {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* The modal's content */
+.modal-dialog .modal-content {
+  margin: auto;
+  background-color: #f3f3f3;
+  position: relative;
+  padding: 0;
+  outline: 0;
+  border: 1px #5effe0 solid;
+  text-align: justify;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  /* Add animation */
+  -webkit-animation-name: example; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 0.5s; /* Chrome, Safari, Opera */
+  animation-name: example;
+  animation-duration: 0.5s;
+}
+
+
+.modal02-dialog {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* The modal's content */
+.modal02-dialog .modal02-content {
+  margin: auto;
+  background-color: #f3f3f3;
+  position: relative;
+  padding: 0;
+  outline: 0;
+  border: 1px #5effe0 solid;
+  text-align: justify;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 40;
+
+  /* Add animation */
+  -webkit-animation-name: example; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 0.5s; /* Chrome, Safari, Opera */
+  animation-name: example;
+  animation-duration: 0.5s;
+}
+/* The button used to close the modal */
+.closebtn {
+  text-decoration: none;
+  float: right;
+  font-size: 35px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.closebtn:hover,
+.closebtn:focus {
+  color: #5effe0;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container {
+    width: 1024px;
+  padding: 2px 16px;
+}
+
+header {
+  background-color: #5cb85c;
+  font-size: 25px;
+  color: white;
+}
+
+.b {
+  font-family: 'Sarpanch', sans-serif;
+    font-size: 6em;    
+}
+
+.timeline {
+    text-align: center;
+    padding-bottom: 200px;
+    
+}
+
+.videowrds {
+    color: white;
+    
+    
+}
+    
+
+
